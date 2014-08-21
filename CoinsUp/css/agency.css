@@ -296,14 +296,15 @@ section h3.section-subheading {
 #logo {
   padding-top: 80px;
 }
-@media (min-width: 768px) {
-  #logo {
-    padding-top: 120px;
-  }
-}
 #download {
-  padding-top: 50px;
+  padding-top: 70px;
   padding-bottom: 20px;
+}
+@media (min-width: 768px) {
+  #download {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
 }
 .team-member {
   text-align: center;

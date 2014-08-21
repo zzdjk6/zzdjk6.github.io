@@ -4,7 +4,7 @@
     <list default="true" id="2af4738c-da6b-4efe-8250-a1ba508f394a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.css" afterPath="$PROJECT_DIR$/css/agency.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/agency.less" afterPath="$PROJECT_DIR$/css/agency.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CoinsUp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="44" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.30112723" vertical-offset="1071" max-vertical-offset="4148">
+            <state line="80" column="31" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-9.807693" vertical-offset="1105" max-vertical-offset="4148">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agency.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="agency.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/agency.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="251" column="16" selection-start="4147" selection-end="4147" vertical-scroll-proportion="-9.115385" vertical-offset="4030" max-vertical-offset="6239">
+            <state line="257" column="20" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.48107255" vertical-offset="4064" max-vertical-offset="6239">
               <folding />
             </state>
           </provider>
@@ -267,16 +267,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/agency.less">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="251" column="16" selection-start="4147" selection-end="4147" vertical-scroll-proportion="-9.115385" vertical-offset="4030" max-vertical-offset="6239">
+        <state line="80" column="31" selection-start="2817" selection-end="2817" vertical-scroll-proportion="-9.807693" vertical-offset="1105" max-vertical-offset="4148">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/agency.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="44" selection-start="2650" selection-end="2650" vertical-scroll-proportion="0.30112723" vertical-offset="1071" max-vertical-offset="4148">
+        <state line="257" column="20" selection-start="4208" selection-end="4208" vertical-scroll-proportion="0.48107255" vertical-offset="4064" max-vertical-offset="6239">
           <folding />
         </state>
       </provider>
