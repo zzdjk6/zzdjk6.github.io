@@ -293,8 +293,16 @@ section h3.section-subheading {
 #introduction ul li {
   padding-bottom: 10px;
 }
+#logo {
+  padding-top: 80px;
+}
+@media (min-width: 768px) {
+  #logo {
+    padding-top: 120px;
+  }
+}
 #download {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 .team-member {
