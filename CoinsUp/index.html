@@ -270,9 +270,8 @@
             "download-windowsphone"
         ];
         for (var i = 0; i < buttonList.length; i++) {
-            var button = buttonList[i];
-            $("#" + button).on('click', function () {
-                ga('send', 'event', 'button', 'click', button);
+            $("#" + buttonList[i]).on('click', function () {
+                ga('send', 'event', 'button', 'click', this.id);
             });
         }
     });
