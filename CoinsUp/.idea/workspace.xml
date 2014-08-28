@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2af4738c-da6b-4efe-8250-a1ba508f394a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CoinsUp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="107" column="152" selection-start="4305" selection-end="4305" vertical-scroll-proportion="0.42190015" vertical-offset="1557" max-vertical-offset="4896">
+            <state line="81" column="41" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.52012885" vertical-offset="1054" max-vertical-offset="4896">
               <folding />
             </state>
           </provider>
@@ -284,7 +283,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="152" selection-start="4305" selection-end="4305" vertical-scroll-proportion="0.42190015" vertical-offset="1557" max-vertical-offset="4896">
+        <state line="81" column="41" selection-start="2859" selection-end="2859" vertical-scroll-proportion="0.52012885" vertical-offset="1054" max-vertical-offset="4896">
           <folding />
         </state>
       </provider>
