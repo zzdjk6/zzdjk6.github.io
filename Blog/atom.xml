@@ -3,7 +3,7 @@
     <title><![CDATA[zzdjk6&#039;s Blog]]></title>
     <link href="http://zzdjk6.github.io/Blog/atom.xml" rel="self"/>
     <link href="http://zzdjk6.github.io/Blog/"/>
-    <updated>2014-08-31T17:48:09+08:00</updated>
+    <updated>2014-08-31T19:13:49+08:00</updated>
     <id>http://zzdjk6.github.io/Blog/</id>
         <generator uri="http://sculpin.io/">Sculpin</generator>
             <entry>
@@ -13,10 +13,13 @@
             <id>http://zzdjk6.github.io/Blog/blog/2014/08/31/i-choose-sculpin-as-blog-engine</id>
             <content type="html"><![CDATA[<p>After some tries, I finally choose Sculpin as my blog engine.</p>
 
-<p>As you know, a lot of programmer may go through these events:
-1. sign up on a common blog site and write
-2. then set up a standalone blog with dedicated domain (e.g use wordpress)
-3. finally find a static site generator (e.g jekyll) and put the blog on Github Pages or sth like that.</p>
+<p>As you know, a lot of programmer may go through these events:</p>
+
+<ol>
+<li>sign up on a common blog site and write</li>
+<li>then set up a standalone blog with dedicated domain (e.g use wordpress)</li>
+<li>finally find a static site generator (e.g jekyll) and put the blog on Github Pages or sth like that.</li>
+</ol>
 
 <p>I have a quickview of some static site generators, include Ruby-based (jekyll),
 Javascript-based (Hexo), Python-based (Pelican), Java-based (jBake) then finally PHP-based (Sculpin).</p>
@@ -25,13 +28,16 @@ Javascript-based (Hexo), Python-based (Pelican), Java-based (jBake) then finally
 Before that I wrote some Python, ASP.net, and some Core java.</p>
 
 <p>Ruby-based, Python-based and Javascript-based solutions got a lot user base,
-but I find these solutions not fit me, because:
-* It seems has all features I need.(jBake sucks, sorry :)
-* It seems easier to cusomize since I feel more confident when using a tool written in a language I'm most skillfull.
-* Recently I find myself don't like these dynamic-typed language without explict type hint any more (e.g Ruby,Python,Js).
-* I find only PHP-based solutions all target at the same template engine in common - Twig,
+but I find these solutions not fit me, because:</p>
+
+<ul>
+<li>It seems has all features I need.(jBake sucks, sorry :)</li>
+<li>It seems easier to cusomize since I feel more confident when using a tool written in a language I'm most skillfull.</li>
+<li>Recently I find myself don't like these dynamic-typed language without explict type hint any more (e.g Ruby,Python,Js).</li>
+<li>I find only PHP-based solutions all target at the same template engine in common - Twig,
 it's de facto standard in Symfony-based community. Template engine of other language based solution vary
-from each other. Too much choice drives me crazy.</p>
+from each other. Too much choice drives me crazy.</li>
+</ul>
 
 <p>If you have the similar problem with me, give Sculpin a try.</p>
 ]]></content>
