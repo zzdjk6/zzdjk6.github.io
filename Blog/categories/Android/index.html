@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>zzdjk6&#39;s blog</title>
+  <title>Android | zzdjk6&#39;s blog</title>
   <meta name="author" content="zzdjk6">
   
   <meta name="description" content="zzdjk6, A Indie Game Developer &amp; Web Guy">
@@ -82,66 +82,26 @@
 
   <div class="container">
   	<div class="content">
-    	 <!-- index -->
-<!-- _partial/index -->
+    	 <!-- category -->
+<!-- _partial/archive -->
+
+
+<!-- archive.title -->
+<div class="page-header">
+  <h1 class="archive-title-category">Android</h1>
+</div>
+
 <div class="row page">
-
-	
-	<div class="col-md-9">
-	
-
-		<div class="slogan lead">
-    <i class="fa fa-heart"></i>
-    Inide Game Developer &amp; Web Guy
-</div>
-
-
-		<div class="mypage">
-
-			<!-- title and entry -->
-			<div class="panel panel-default">
-				
-					<!-- _partial/post/title -->
-<div class="panel-heading">
-
-	
-	<!-- display as entry -->
-		<h3 class="xtitle">
-			<a href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/" >Unity3D World Coordinate To NGUI Coordinate</a>
-			<span class="text-muted pull-right"><small> 2014-09-11 </small></span>
-		</h3>
-	
-
-</div>
-
-					<!-- _partial/post/entry -->
-<div class="panel-body">
-  <div class="row">
+  <!-- cols -->
   
-	<div class="col-md-12">
+  <div class="col-md-9">
+	
+
 	  
-	
-	  <p>There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.</p>
-<p>After google with trial-and-error, I finally find a way to do this. Codes below:</p>
-<figure class="highlight cs"><figcaption><span>[]</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// we assume world coordinate is wordPoint, which is a Vector3 </span></div><div class="line"><span class="comment">// this point is in scaled size </span></div><div class="line">Vector3 screenPoint = Camera.main.WorldToScreenPoint(wordPoint); </div><div class="line">Vector3 origPoint = <span class="keyword">new</span> Vector3(Screen.width/<span class="number">2</span>f,Screen.height/<span class="number">2</span>f,<span class="number">0</span>); </div><div class="line">Vector3 nguiPoint = screenPoint - origPoint; </div><div class="line"></div><div class="line"><span class="comment">// we need the point in idea size </span></div><div class="line"><span class="keyword">float</span> s = GetComponent&lt;UIRoot&gt;().activeHeight / (<span class="keyword">float</span>)Screen.height; </div><div class="line">nguiPoint *= s; </div><div class="line"></div><div class="line"><span class="comment">// nguiPoint is the result</span></div></pre></td></tr></table></figure>
-
-<ol>
-<li>You first transfer your world coordinate to screen point.</li>
-<li>Then you calculate a the vector from original point to your point.</li>
-<li>Finally you scale this vector to get your NGUI point.</li>
-</ol>
-<p>I have use it for my game <a href="http://zzdjk6.github.io/CoinsUp/index.html" target="_blank" rel="external">CoinsUp!</a>, which works well on iOS, Android, and Windows Phone platform.<br>(I use it to show “UP!” when a coin is stacked up.)</p>
-
-	
-	</div>
-	
-
-</div>
-	<a type="button" href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/#more" class="btn btn-default more">Read More</a>
-</div>
-
-				
-					<!-- _partial/post/title -->
+	  <!-- display as entry -->
+	  <div class="mypage">
+	  
+	  <!-- _partial/post/title -->
 <div class="panel-heading">
 
 	
@@ -154,7 +114,7 @@
 
 </div>
 
-					<!-- _partial/post/entry -->
+	  <!-- _partial/post/entry -->
 <div class="panel-body">
   <div class="row">
   
@@ -187,28 +147,26 @@
 	<a type="button" href="./2014/09/11/Find-Android-Keystore-And-Password-Back/#more" class="btn btn-default more">Read More</a>
 </div>
 
-				
-
-			</div>
-
-			<!-- pagination -->
-			<div>
-	  		<center>
-			<!-- _partial/index_pagination -->
+	  
+	  </div>
+	  <div>
+	  <center>
+	  <!-- _partial/index_pagination -->
 <div class="pagination">
 <ul class="pagination">
 	 
 </ul>
 </div>
 
-	  		</center>
-			</div>
-	</div>
+	  </center>
+	  </div>
 
-	</div> <!-- col-md-9 -->
+	  
 
-	
-		<!-- _partial/sidebar -->
+</div> <!-- col-md-9/col-md-12 -->
+
+
+<!-- _partial/sidebar -->
 <div class="col-md-3">
 	<div id="sidebar">
 	
@@ -277,9 +235,7 @@
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
 
-	
 
-</div> <!-- row-fluid -->
 
 
 	  </div>

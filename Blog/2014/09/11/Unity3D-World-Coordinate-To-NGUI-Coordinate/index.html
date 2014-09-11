@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>zzdjk6&#39;s blog</title>
+  <title>Unity3D World Coordinate To NGUI Coordinate | zzdjk6&#39;s blog</title>
   <meta name="author" content="zzdjk6">
   
   <meta name="description" content="zzdjk6, A Indie Game Developer &amp; Web Guy">
@@ -11,7 +11,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  
+  <meta property="og:title" content="Unity3D World Coordinate To NGUI Coordinate"/>
   <meta property="og:site_name" content="zzdjk6&#39;s blog"/>
 
   
@@ -82,46 +82,35 @@
 
   <div class="container">
   	<div class="content">
-    	 <!-- index -->
-<!-- _partial/index -->
-<div class="row page">
+    	 <!-- post -->
 
+
+<!-- _partial/article -->
+
+<!-- _partial/post/title -->
+<div class="panel-heading">
+
+	
+  <!-- display as page -->
+		<div class="page-header">
+			<h1> Unity3D World Coordinate To NGUI Coordinate</h1>
+		</div>
+	
+
+</div>
+
+
+<div class="row post">
+	<!-- cols -->
 	
 	<div class="col-md-9">
 	
 
-		<div class="slogan lead">
-    <i class="fa fa-heart"></i>
-    Inide Game Developer &amp; Web Guy
-</div>
-
-
-		<div class="mypage">
-
-			<!-- title and entry -->
-			<div class="panel panel-default">
-				
-					<!-- _partial/post/title -->
-<div class="panel-heading">
-
-	
-	<!-- display as entry -->
-		<h3 class="xtitle">
-			<a href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/" >Unity3D World Coordinate To NGUI Coordinate</a>
-			<span class="text-muted pull-right"><small> 2014-09-11 </small></span>
-		</h3>
 	
 
-</div>
-
-					<!-- _partial/post/entry -->
-<div class="panel-body">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <p>There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.</p>
+	<!-- content -->
+	<div class="mypage">
+	    <p>There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.</p>
 <p>After google with trial-and-error, I finally find a way to do this. Codes below:</p>
 <figure class="highlight cs"><figcaption><span>[]</span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// we assume world coordinate is wordPoint, which is a Vector3 </span></div><div class="line"><span class="comment">// this point is in scaled size </span></div><div class="line">Vector3 screenPoint = Camera.main.WorldToScreenPoint(wordPoint); </div><div class="line">Vector3 origPoint = <span class="keyword">new</span> Vector3(Screen.width/<span class="number">2</span>f,Screen.height/<span class="number">2</span>f,<span class="number">0</span>); </div><div class="line">Vector3 nguiPoint = screenPoint - origPoint; </div><div class="line"></div><div class="line"><span class="comment">// we need the point in idea size </span></div><div class="line"><span class="keyword">float</span> s = GetComponent&lt;UIRoot&gt;().activeHeight / (<span class="keyword">float</span>)Screen.height; </div><div class="line">nguiPoint *= s; </div><div class="line"></div><div class="line"><span class="comment">// nguiPoint is the result</span></div></pre></td></tr></table></figure>
 
@@ -132,154 +121,85 @@
 </ol>
 <p>I have use it for my game <a href="http://zzdjk6.github.io/CoinsUp/index.html" target="_blank" rel="external">CoinsUp!</a>, which works well on iOS, Android, and Windows Phone platform.<br>(I use it to show “UP!” when a coin is stacked up.)</p>
 
-	
 	</div>
-	
 
-</div>
-	<a type="button" href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/#more" class="btn btn-default more">Read More</a>
-</div>
-
-				
-					<!-- _partial/post/title -->
-<div class="panel-heading">
-
-	
-	<!-- display as entry -->
-		<h3 class="xtitle">
-			<a href="./2014/09/11/Find-Android-Keystore-And-Password-Back/" >Find Android Keystore And Password Back</a>
-			<span class="text-muted pull-right"><small> 2014-09-11 </small></span>
-		</h3>
-	
-
-</div>
-
-					<!-- _partial/post/entry -->
-<div class="panel-body">
-  <div class="row">
-  
-	<div class="col-md-12">
-	  
-	
-	  <p>I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)</p>
-<p>I found I’m not the only one have this issue, most of people say you can do nothing, but I found it back successfully.</p>
-<ol>
-<li><p>use Data Rescue to find the key store file back.</p>
-<ol>
-<li>generate some keystore files and use “FileIQ” function of this software to train it recognize keystore file type.</li>
-<li>change search engine preference to set the limit size of keystore file, I use 100KB, maybe 1000KB is better.</li>
-<li>disable other file type recognition to speed up reconstruction phase.</li>
-<li>start a deep scan and wait for hours.</li>
-<li>you will find some files in “User Defined” nodes, recover them all.</li>
-</ol>
-</li>
-<li><p>use <a href="https://code.google.com/p/android-keystore-password-recover/" target="_blank" rel="external">Android Keystore Password Recovery</a> to check these file one by one, see if it is the one you need. (you don’t have to know the password of these key store, just use a dict.txt and “-m 2” to see the key alias and create date of the keystore file, this tool can show these basic information even the password is wrong.)<br>If you’re lucky like me, you find your keystore file back now.</p>
-</li>
-</ol>
-<p>If you forgot your password, you have to go further, continue use <a href="https://code.google.com/p/android-keystore-password-recover/" target="_blank" rel="external">Android Keystore Password Recovery</a> or other tools to find your password back.</p>
-<p>Good luck!</p>
-
-	
-	</div>
-	
-
-</div>
-	<a type="button" href="./2014/09/11/Find-Android-Keystore-And-Password-Back/#more" class="btn btn-default more">Read More</a>
-</div>
-
-				
-
-			</div>
-
-			<!-- pagination -->
-			<div>
-	  		<center>
-			<!-- _partial/index_pagination -->
+	<div>
+  	<center>
+	<!-- _partial/post/pagination -->
 <div class="pagination">
 <ul class="pagination">
 	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>Prev</a></li>
+        
+
+        <li><a href="./archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="./2014/09/11/Find-Android-Keystore-And-Password-Back/" class="alignright next">Next<i class="fa fa-arrow-circle-o-right"></i></a></li>
+        
+	
 </ul>
 </div>
 
-	  		</center>
-			</div>
+    </center>
 	</div>
 
-	</div> <!-- col-md-9 -->
+	<!-- comment -->
+	<!-- _partial/post/comment -->
+
+<section id="comment">
+  <h2 class="title">Comments</h2>
+
+  
+</section>
+
+
+
+	</div> <!-- col-md-9/col-md-12 -->
 
 	
-		<!-- _partial/sidebar -->
-<div class="col-md-3">
-	<div id="sidebar">
+		<!-- _partial/post/meta -->
+<div class="col-md-3"> 
+
+	<!-- date -->
 	
-			<!-- _widget/search -->
-<div class="form-group has-success has-feedback">
-  <form action="//google.com/search" method="get" accept-charset="utf-8" >
-    <input type="search" name="q" results="0" placeholder="Search" class="form-control">
-    <input type="hidden" name="q" value="site:zzdjk6.github.io/blog">
-  </form>
-</div>
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2014-09-11
+	</div>
+	
 
-		
-			<!-- _widget/category -->
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+        <!-- _partial/post/category -->
+  
+  <li>
+    <li><a href="./categories/Unity3D/">Unity3D<span>1</span></a></li>
+  </li>
 
-	<div class="widget">
-		<h4>Categories</h4>
-		<ul class="tag_box inline list-unstyled">
-		
-			<li><a href="./categories/Android/">Android<span>1</span></a></li>
-		
-			<li><a href="./categories/Unity3D/">Unity3D<span>1</span></a></li>
-		
-		</ul>
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
 	</div>
 
+    <hr>
 
-		
-			<!-- _widget/tagcloud -->
-
-
-		
-			<!-- _widget/recent_posts -->
-
-<div class="widget">
-  <h4>Recent Posts</h4>
-  <ul class="entry list-unstyled">
-    
-      <li>
-        <a href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/" ><i class="fa fa-file-o"></i>Unity3D World Coordinate To...</a>
-      </li>
-    
-      <li>
-        <a href="./2014/09/11/Find-Android-Keystore-And-Password-Back/" ><i class="fa fa-file-o"></i>Find Android Keystore And P...</a>
-      </li>
-    
-  </ul>
-</div>
-
-
-		
-			<!-- _widget/links -->
-
-<div class="widget">
-	<h4>Links</h4>
-	<ul class="blogroll list-unstyled">
-	
-		<li><i class="fa fa-github"></i><a href="http://github.com/zzdjk6" title="My Github account." target="_blank"]);">My Github</a></li>
-	
-		<li><i class="fa fa-gamepad"></i><a href="http://www.slidedb.com/members/zzdjk6/games" title="My Indie Games" target="_blank"]);">My Indie Games</a></li>
-	
-	</ul>
-</div>
-
-
-		
-	</div> <!-- sidebar -->
-</div> <!-- col-md-3 -->
+</div><!-- col-md-3 -->
 
 	
 
-</div> <!-- row-fluid -->
+</div><!-- row -->
 
 
 	  </div>

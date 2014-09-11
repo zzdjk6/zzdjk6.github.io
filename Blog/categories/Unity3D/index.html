@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>zzdjk6&#39;s blog</title>
+  <title>Unity3D | zzdjk6&#39;s blog</title>
   <meta name="author" content="zzdjk6">
   
   <meta name="description" content="zzdjk6, A Indie Game Developer &amp; Web Guy">
@@ -82,26 +82,26 @@
 
   <div class="container">
   	<div class="content">
-    	 <!-- index -->
-<!-- _partial/index -->
-<div class="row page">
+    	 <!-- category -->
+<!-- _partial/archive -->
 
-	
-	<div class="col-md-9">
-	
 
-		<div class="slogan lead">
-    <i class="fa fa-heart"></i>
-    Inide Game Developer &amp; Web Guy
+<!-- archive.title -->
+<div class="page-header">
+  <h1 class="archive-title-category">Unity3D</h1>
 </div>
 
+<div class="row page">
+  <!-- cols -->
+  
+  <div class="col-md-9">
+	
 
-		<div class="mypage">
-
-			<!-- title and entry -->
-			<div class="panel panel-default">
-				
-					<!-- _partial/post/title -->
+	  
+	  <!-- display as entry -->
+	  <div class="mypage">
+	  
+	  <!-- _partial/post/title -->
 <div class="panel-heading">
 
 	
@@ -114,7 +114,7 @@
 
 </div>
 
-					<!-- _partial/post/entry -->
+	  <!-- _partial/post/entry -->
 <div class="panel-body">
   <div class="row">
   
@@ -140,75 +140,26 @@
 	<a type="button" href="./2014/09/11/Unity3D-World-Coordinate-To-NGUI-Coordinate/#more" class="btn btn-default more">Read More</a>
 </div>
 
-				
-					<!-- _partial/post/title -->
-<div class="panel-heading">
-
-	
-	<!-- display as entry -->
-		<h3 class="xtitle">
-			<a href="./2014/09/11/Find-Android-Keystore-And-Password-Back/" >Find Android Keystore And Password Back</a>
-			<span class="text-muted pull-right"><small> 2014-09-11 </small></span>
-		</h3>
-	
-
-</div>
-
-					<!-- _partial/post/entry -->
-<div class="panel-body">
-  <div class="row">
-  
-	<div class="col-md-12">
 	  
-	
-	  <p>I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)</p>
-<p>I found I’m not the only one have this issue, most of people say you can do nothing, but I found it back successfully.</p>
-<ol>
-<li><p>use Data Rescue to find the key store file back.</p>
-<ol>
-<li>generate some keystore files and use “FileIQ” function of this software to train it recognize keystore file type.</li>
-<li>change search engine preference to set the limit size of keystore file, I use 100KB, maybe 1000KB is better.</li>
-<li>disable other file type recognition to speed up reconstruction phase.</li>
-<li>start a deep scan and wait for hours.</li>
-<li>you will find some files in “User Defined” nodes, recover them all.</li>
-</ol>
-</li>
-<li><p>use <a href="https://code.google.com/p/android-keystore-password-recover/" target="_blank" rel="external">Android Keystore Password Recovery</a> to check these file one by one, see if it is the one you need. (you don’t have to know the password of these key store, just use a dict.txt and “-m 2” to see the key alias and create date of the keystore file, this tool can show these basic information even the password is wrong.)<br>If you’re lucky like me, you find your keystore file back now.</p>
-</li>
-</ol>
-<p>If you forgot your password, you have to go further, continue use <a href="https://code.google.com/p/android-keystore-password-recover/" target="_blank" rel="external">Android Keystore Password Recovery</a> or other tools to find your password back.</p>
-<p>Good luck!</p>
-
-	
-	</div>
-	
-
-</div>
-	<a type="button" href="./2014/09/11/Find-Android-Keystore-And-Password-Back/#more" class="btn btn-default more">Read More</a>
-</div>
-
-				
-
-			</div>
-
-			<!-- pagination -->
-			<div>
-	  		<center>
-			<!-- _partial/index_pagination -->
+	  </div>
+	  <div>
+	  <center>
+	  <!-- _partial/index_pagination -->
 <div class="pagination">
 <ul class="pagination">
 	 
 </ul>
 </div>
 
-	  		</center>
-			</div>
-	</div>
+	  </center>
+	  </div>
 
-	</div> <!-- col-md-9 -->
+	  
 
-	
-		<!-- _partial/sidebar -->
+</div> <!-- col-md-9/col-md-12 -->
+
+
+<!-- _partial/sidebar -->
 <div class="col-md-3">
 	<div id="sidebar">
 	
@@ -277,9 +228,7 @@
 	</div> <!-- sidebar -->
 </div> <!-- col-md-3 -->
 
-	
 
-</div> <!-- row-fluid -->
 
 
 	  </div>
