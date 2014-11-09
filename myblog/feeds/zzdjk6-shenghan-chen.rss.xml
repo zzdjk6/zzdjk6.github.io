@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zzdjk6's blog</title><link>http://zzdjk6.github.io/myblog/</link><description></description><atom:link href="http://zzdjk6.github.io/myblog/feeds/zzdjk6-shenghan-chen.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 09 Nov 2014 20:00:00 +0100</lastBuildDate><item><title>忍者神龟-电影笔记</title><link>http://zzdjk6.github.io/myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</link><description>&lt;h2&gt;影片故事&lt;/h2&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zzdjk6's blog (陈圣晗的博客)</title><link>http://zzdjk6.github.io/myblog/</link><description></description><atom:link href="http://zzdjk6.github.io/myblog/feeds/zzdjk6-shenghan-chen.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 09 Nov 2014 20:00:00 +0800</lastBuildDate><item><title>忍者神龟-电影笔记</title><link>http://zzdjk6.github.io/myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</link><description>&lt;h2&gt;影片故事&lt;/h2&gt;
 &lt;p&gt;女主奥尼尔所生活的纽约市，经常被一个名为大脚帮的恐怖组织袭击，这个组织想要通过不法的方式控制这个城市。&lt;/p&gt;
 &lt;p&gt;她是一家娱乐新闻电视台的记者，一直梦想着经历和报道一些更重大、更有价值的新闻，比如大脚帮的深入报道。&lt;/p&gt;
 &lt;p&gt;一天，她在工作之外追踪大脚帮的时候，遇到了一些神秘人物，他们以不可思议的力量阻止了大脚帮的非法行动。&lt;/p&gt;
@@ -33,7 +33,7 @@
 &lt;/ul&gt;
 &lt;p&gt;影片节奏比较快，情节高潮迭起，人物形象刻画地生动有趣，娱乐性较强。&lt;/p&gt;
 &lt;p&gt;影片思想性较弱，如果一定要寻找和分析，更像是影片和我们自己都在生搬硬套，好在影片的重点不是思想性，一些刻画思想性主题的部分都是轻描淡写地带过，并不影响娱乐性。&lt;/p&gt;
-&lt;p&gt;我相信它很好地满足了观众的娱乐性需求。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Sun, 09 Nov 2014 20:00:00 +0100</pubDate><guid>tag:zzdjk6.github.io,2014-11-09:myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</guid></item><item><title>Find Android Keystore And Password Back</title><link>http://zzdjk6.github.io/myblog/find-android-keystore-and-password-back.html</link><description>&lt;p&gt;I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)&lt;/p&gt;
+&lt;p&gt;我相信它很好地满足了观众的娱乐性需求。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Sun, 09 Nov 2014 20:00:00 +0800</pubDate><guid>tag:zzdjk6.github.io,2014-11-09:myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</guid></item><item><title>Find Android Keystore And Password Back</title><link>http://zzdjk6.github.io/myblog/find-android-keystore-and-password-back.html</link><description>&lt;p&gt;I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)&lt;/p&gt;
 &lt;p&gt;I found I'm not the only one have this issue, most of people say you can do nothing, but I found it back successfully.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -52,7 +52,7 @@ If you're lucky like me, you find your keystore file back now.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;If you forgot your password, you have to go further, continue use &lt;a href="https://code.google.com/p/android-keystore-password-recover/"&gt;Android Keystore Password Recovery&lt;/a&gt; or other tools to find your password back.&lt;/p&gt;
-&lt;p&gt;Good luck!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0200</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/find-android-keystore-and-password-back.html</guid></item><item><title>Unity3D World Coordinate To NGUI Coordinate</title><link>http://zzdjk6.github.io/myblog/unity3d-world-coordinate-to-ngui-coordinate.html</link><description>&lt;p&gt;There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.&lt;/p&gt;
+&lt;p&gt;Good luck!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0800</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/find-android-keystore-and-password-back.html</guid></item><item><title>Unity3D World Coordinate To NGUI Coordinate</title><link>http://zzdjk6.github.io/myblog/unity3d-world-coordinate-to-ngui-coordinate.html</link><description>&lt;p&gt;There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.&lt;/p&gt;
 &lt;p&gt;After google with trial-and-error, I finally find a way to do this. Codes below:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;// we assume world coordinate is wordPoint, which is a Vector3 &lt;/span&gt;
 &lt;span class="c1"&gt;// this point is in scaled size &lt;/span&gt;
@@ -74,7 +74,7 @@ If you're lucky like me, you find your keystore file back now.&lt;/p&gt;
 &lt;li&gt;Finally you scale this vector to get your NGUI point.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;I have use it for my game &lt;a href="http://zzdjk6.github.io/CoinsUp/index.html"&gt;CoinsUp!&lt;/a&gt;, which works well on iOS, Android, and Windows Phone platform.
-(I use it to show "UP!" when a coin is stacked up.)&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0200</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/unity3d-world-coordinate-to-ngui-coordinate.html</guid></item><item><title>Markdown Syntax</title><link>http://zzdjk6.github.io/myblog/markdown-syntax.html</link><description>&lt;h1&gt;Markdown: Syntax&lt;/h1&gt;
+(I use it to show "UP!" when a coin is stacked up.)&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0800</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/unity3d-world-coordinate-to-ngui-coordinate.html</guid></item><item><title>Markdown Syntax</title><link>http://zzdjk6.github.io/myblog/markdown-syntax.html</link><description>&lt;h1&gt;Markdown: Syntax&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="#overview"&gt;Overview&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href="#philosophy"&gt;Philosophy&lt;/a&gt;&lt;/li&gt;
@@ -961,4 +961,4 @@ backslashes before the asterisks, like this:&lt;/p&gt;
 &lt;span class="o"&gt;-&lt;/span&gt;   &lt;span class="n"&gt;minus&lt;/span&gt; &lt;span class="n"&gt;sign&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;hyphen&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="p"&gt;.&lt;/span&gt;   &lt;span class="n"&gt;dot&lt;/span&gt;
 &lt;span class="o"&gt;!&lt;/span&gt;   &lt;span class="n"&gt;exclamation&lt;/span&gt; &lt;span class="n"&gt;mark&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Fri, 17 Dec 2004 00:00:00 +0100</pubDate><guid>tag:zzdjk6.github.io,2004-12-17:myblog/markdown-syntax.html</guid></item></channel></rss>
+&lt;/pre&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Fri, 17 Dec 2004 00:00:00 +0800</pubDate><guid>tag:zzdjk6.github.io,2004-12-17:myblog/markdown-syntax.html</guid></item></channel></rss>
