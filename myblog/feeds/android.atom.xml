@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>zzdjk6's blog</title><link href="http://zzdjk6.github.io/myblog/" rel="alternate"></link><link href="http://zzdjk6.github.io/myblog/feeds/android.atom.xml" rel="self"></link><id>http://zzdjk6.github.io/myblog/</id><updated>2014-09-11T18:00:00+02:00</updated><entry><title>Find Android Keystore And Password Back</title><link href="http://zzdjk6.github.io/myblog/find-android-keystore-and-password-back.html" rel="alternate"></link><updated>2014-09-11T18:00:00+02:00</updated><author><name>zzdjk6 (Shenghan Chen)</name></author><id>tag:zzdjk6.github.io,2014-09-11:myblog/find-android-keystore-and-password-back.html</id><summary type="html">&lt;p&gt;I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)&lt;/p&gt;
+&lt;p&gt;I found I'm not the only one have this issue, most of people say you can do nothing, but I found it back successfully.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;use Data Rescue to find the key store file back.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;generate some keystore files and use "FileIQ" function of this software to train it recognize keystore file type.&lt;/li&gt;
+&lt;li&gt;change search engine preference to set the limit size of keystore file, I use 100KB, maybe 1000KB is better.&lt;/li&gt;
+&lt;li&gt;disable other file type recognition to speed up reconstruction phase.&lt;/li&gt;
+&lt;li&gt;start a deep scan and wait for hours.&lt;/li&gt;
+&lt;li&gt;you will find some files in "User Defined" nodes, recover them all.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use &lt;a href="https://code.google.com/p/android-keystore-password-recover/"&gt;Android Keystore Password Recovery&lt;/a&gt; to check these file one by one, see if it is the one you need. (you don't have to know the password of these key store, just use a dict.txt and "-m 2" to see the key alias and create date of the keystore file, this tool can show these basic information even the password is wrong.)
+If you're lucky like me, you find your keystore file back now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you forgot your password, you have to go further, continue use &lt;a href="https://code.google.com/p/android-keystore-password-recover/"&gt;Android Keystore Password Recovery&lt;/a&gt; or other tools to find your password back.&lt;/p&gt;
+&lt;p&gt;Good luck!&lt;/p&gt;</summary></entry></feed>

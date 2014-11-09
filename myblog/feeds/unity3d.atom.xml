@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>zzdjk6's blog</title><link href="http://zzdjk6.github.io/myblog/" rel="alternate"></link><link href="http://zzdjk6.github.io/myblog/feeds/unity3d.atom.xml" rel="self"></link><id>http://zzdjk6.github.io/myblog/</id><updated>2014-09-11T18:00:00+02:00</updated><entry><title>Unity3D World Coordinate To NGUI Coordinate</title><link href="http://zzdjk6.github.io/myblog/unity3d-world-coordinate-to-ngui-coordinate.html" rel="alternate"></link><updated>2014-09-11T18:00:00+02:00</updated><author><name>zzdjk6 (Shenghan Chen)</name></author><id>tag:zzdjk6.github.io,2014-09-11:myblog/unity3d-world-coordinate-to-ngui-coordinate.html</id><summary type="html">&lt;p&gt;There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.&lt;/p&gt;
+&lt;p&gt;After google with trial-and-error, I finally find a way to do this. Codes below:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;// we assume world coordinate is wordPoint, which is a Vector3 &lt;/span&gt;
+&lt;span class="c1"&gt;// this point is in scaled size &lt;/span&gt;
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;screenPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Camera&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WorldToScreenPoint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;wordPoint&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;origPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;Vector3&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;width&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mf"&gt;2f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mf"&gt;2f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mh"&gt;0&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;nguiPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;screenPoint&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;origPoint&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// we need the point in idea size &lt;/span&gt;
+&lt;span class="n"&gt;float&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;GetComponent&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;UIRoot&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;activeHeight&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;float&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="n"&gt;nguiPoint&lt;/span&gt; &lt;span class="o"&gt;*=&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// nguiPoint is the result&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;You first transfer your world coordinate to screen point.&lt;/li&gt;
+&lt;li&gt;Then you calculate a the vector from original point to your point.&lt;/li&gt;
+&lt;li&gt;Finally you scale this vector to get your NGUI point.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have use it for my game &lt;a href="http://zzdjk6.github.io/CoinsUp/index.html"&gt;CoinsUp!&lt;/a&gt;, which works well on iOS, Android, and Windows Phone platform.
+(I use it to show "UP!" when a coin is stacked up.)&lt;/p&gt;</summary></entry></feed>

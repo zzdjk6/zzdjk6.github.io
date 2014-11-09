@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zzdjk6's blog</title><link>http://zzdjk6.github.io/myblog/</link><description></description><atom:link href="http://zzdjk6.github.io/myblog/feeds/zzdjk6-shenghan-chen.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 09 Nov 2014 20:00:00 +0100</lastBuildDate><item><title>忍者神龟</title><link>http://zzdjk6.github.io/myblog/ren-zhe-shen-gui.html</link><description>&lt;p&gt;女主奥尼尔所生活的纽约市，经常被一个名为大脚帮的恐怖组织袭击，这个组织想要通过不法的方式控制这个城市。&lt;/p&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zzdjk6's blog</title><link>http://zzdjk6.github.io/myblog/</link><description></description><atom:link href="http://zzdjk6.github.io/myblog/feeds/zzdjk6-shenghan-chen.rss.xml" rel="self"></atom:link><lastBuildDate>Sun, 09 Nov 2014 20:00:00 +0100</lastBuildDate><item><title>忍者神龟-电影笔记</title><link>http://zzdjk6.github.io/myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</link><description>&lt;h2&gt;影片故事&lt;/h2&gt;
+&lt;p&gt;女主奥尼尔所生活的纽约市，经常被一个名为大脚帮的恐怖组织袭击，这个组织想要通过不法的方式控制这个城市。&lt;/p&gt;
 &lt;p&gt;她是一家娱乐新闻电视台的记者，一直梦想着经历和报道一些更重大、更有价值的新闻，比如大脚帮的深入报道。&lt;/p&gt;
 &lt;p&gt;一天，她在工作之外追踪大脚帮的时候，遇到了一些神秘人物，他们以不可思议的力量阻止了大脚帮的非法行动。&lt;/p&gt;
 &lt;p&gt;她将这些遭遇告诉周围的人，但没有人相信她，除了一个曾经和她父亲共事的科学家(反派)。&lt;/p&gt;
@@ -9,6 +10,7 @@
 &lt;p&gt;老鼠变种较早，成为了四只乌龟的师傅，教会了他们很多事情。&lt;/p&gt;
 &lt;p&gt;女主在与他们的交流中了解到了反派的阴谋：反派武者（大脚帮的头目）释放有毒物质残害市民，反派科学家从变种龟上提取解毒物质以救人为名讹诈政府。&lt;/p&gt;
 &lt;p&gt;他们决定阻止反派，于是开始了一场恶斗，并最终获胜。&lt;/p&gt;
+&lt;h2&gt;影片分析&lt;/h2&gt;
 &lt;p&gt;影片想要刻画的思想性主题大约是人们之间的互相信任: &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -31,4 +33,45 @@
 &lt;/ul&gt;
 &lt;p&gt;影片节奏比较快，情节高潮迭起，人物形象刻画地生动有趣，娱乐性较强。&lt;/p&gt;
 &lt;p&gt;影片思想性较弱，如果一定要寻找和分析，更像是影片和我们自己都在生搬硬套，好在影片的重点不是思想性，一些刻画思想性主题的部分都是轻描淡写地带过，并不影响娱乐性。&lt;/p&gt;
-&lt;p&gt;我相信它很好地满足了观众的娱乐性需求。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Sun, 09 Nov 2014 20:00:00 +0100</pubDate><guid>tag:zzdjk6.github.io,2014-11-09:myblog/ren-zhe-shen-gui.html</guid></item></channel></rss>
+&lt;p&gt;我相信它很好地满足了观众的娱乐性需求。&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Sun, 09 Nov 2014 20:00:00 +0100</pubDate><guid>tag:zzdjk6.github.io,2014-11-09:myblog/ren-zhe-shen-gui-dian-ying-bi-ji.html</guid></item><item><title>Find Android Keystore And Password Back</title><link>http://zzdjk6.github.io/myblog/find-android-keystore-and-password-back.html</link><description>&lt;p&gt;I lost an android keystore file but I need it to publish app update to google play store. (I replaced it with new one carelessly.)&lt;/p&gt;
+&lt;p&gt;I found I'm not the only one have this issue, most of people say you can do nothing, but I found it back successfully.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;use Data Rescue to find the key store file back.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;generate some keystore files and use "FileIQ" function of this software to train it recognize keystore file type.&lt;/li&gt;
+&lt;li&gt;change search engine preference to set the limit size of keystore file, I use 100KB, maybe 1000KB is better.&lt;/li&gt;
+&lt;li&gt;disable other file type recognition to speed up reconstruction phase.&lt;/li&gt;
+&lt;li&gt;start a deep scan and wait for hours.&lt;/li&gt;
+&lt;li&gt;you will find some files in "User Defined" nodes, recover them all.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;use &lt;a href="https://code.google.com/p/android-keystore-password-recover/"&gt;Android Keystore Password Recovery&lt;/a&gt; to check these file one by one, see if it is the one you need. (you don't have to know the password of these key store, just use a dict.txt and "-m 2" to see the key alias and create date of the keystore file, this tool can show these basic information even the password is wrong.)
+If you're lucky like me, you find your keystore file back now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;If you forgot your password, you have to go further, continue use &lt;a href="https://code.google.com/p/android-keystore-password-recover/"&gt;Android Keystore Password Recovery&lt;/a&gt; or other tools to find your password back.&lt;/p&gt;
+&lt;p&gt;Good luck!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0200</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/find-android-keystore-and-password-back.html</guid></item><item><title>Unity3D World Coordinate To NGUI Coordinate</title><link>http://zzdjk6.github.io/myblog/unity3d-world-coordinate-to-ngui-coordinate.html</link><description>&lt;p&gt;There are some tricks to transform world coordinate (or screen point) to NGUI coordinate.&lt;/p&gt;
+&lt;p&gt;After google with trial-and-error, I finally find a way to do this. Codes below:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="c1"&gt;// we assume world coordinate is wordPoint, which is a Vector3 &lt;/span&gt;
+&lt;span class="c1"&gt;// this point is in scaled size &lt;/span&gt;
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;screenPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Camera&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;main&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;WorldToScreenPoint&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;wordPoint&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;origPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;new&lt;/span&gt; &lt;span class="n"&gt;Vector3&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;width&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mf"&gt;2f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="mf"&gt;2f&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mh"&gt;0&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; 
+&lt;span class="n"&gt;Vector3&lt;/span&gt; &lt;span class="n"&gt;nguiPoint&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;screenPoint&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;origPoint&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// we need the point in idea size &lt;/span&gt;
+&lt;span class="n"&gt;float&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;GetComponent&lt;/span&gt;&lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;UIRoot&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;&lt;span class="p"&gt;().&lt;/span&gt;&lt;span class="n"&gt;activeHeight&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;float&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="n"&gt;Screen&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;height&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt; 
+&lt;span class="n"&gt;nguiPoint&lt;/span&gt; &lt;span class="o"&gt;*=&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+
+&lt;span class="c1"&gt;// nguiPoint is the result&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ol&gt;
+&lt;li&gt;You first transfer your world coordinate to screen point.&lt;/li&gt;
+&lt;li&gt;Then you calculate a the vector from original point to your point.&lt;/li&gt;
+&lt;li&gt;Finally you scale this vector to get your NGUI point.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I have use it for my game &lt;a href="http://zzdjk6.github.io/CoinsUp/index.html"&gt;CoinsUp!&lt;/a&gt;, which works well on iOS, Android, and Windows Phone platform.
+(I use it to show "UP!" when a coin is stacked up.)&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">zzdjk6 (Shenghan Chen)</dc:creator><pubDate>Thu, 11 Sep 2014 18:00:00 +0200</pubDate><guid>tag:zzdjk6.github.io,2014-09-11:myblog/unity3d-world-coordinate-to-ngui-coordinate.html</guid></item></channel></rss>
