@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>zzdjk6's blog (陈圣晗的博客)</title><link href="http://zzdjk6.github.io/myblog/" rel="alternate"></link><link href="http://zzdjk6.github.io/myblog/feeds/game-design.atom.xml" rel="self"></link><id>http://zzdjk6.github.io/myblog/</id><updated>2014-11-10T00:00:00+08:00</updated><entry><title>20问游戏-人工智能版</title><link href="http://zzdjk6.github.io/myblog/20wen-you-xi-ren-gong-zhi-neng-ban.html" rel="alternate"></link><updated>2014-11-10T00:00:00+08:00</updated><author><name>zzdjk6 (Shenghan Chen)</name></author><id>tag:zzdjk6.github.io,2014-11-10:myblog/20wen-you-xi-ren-gong-zhi-neng-ban.html</id><summary type="html">&lt;p&gt;在阅读时发现20问游戏，尝试搜索是否有人工智能版，竟然找到了。&lt;/p&gt;
+&lt;p&gt;下面两个网站都是游戏的网页版，它是让玩家想事物，人工智能来猜测。&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cn.akinator.com/"&gt;http://cn.akinator.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://y.20q.net/"&gt;http://y.20q.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;发明人的论文:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.google.com/patents/US20060230008?dq=Artificial%20neural%20network%20guessing%20method%20and%20game"&gt;http://www.google.com/patents/US20060230008?dq=Artificial%20neural%20network%20guessing%20method%20and%20game&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;两个讨论链接：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://stackoverflow.com/questions/887533/how-do-20-questions-ai-algorithms-work"&gt;http://stackoverflow.com/questions/887533/how-do-20-questions-ai-algorithms-work&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://gamedev.stackexchange.com/questions/40024/how-does-20q-work-internally"&gt;http://gamedev.stackexchange.com/questions/40024/how-does-20q-work-internally&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;找到一份代码实例:&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://mosaic.cnfolio.com/B142LCW2008A197"&gt;http://mosaic.cnfolio.com/B142LCW2008A197&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;其实我想通过自然语言处理技术，做一个逆向的版本，由人工智能来想东西和回答问题，玩家问问题来猜测。&lt;/p&gt;</summary></entry><entry><title>全景探秘.游戏设计艺术-笔记</title><link href="http://zzdjk6.github.io/myblog/quan-jing-tan-mi-you-xi-she-ji-yi-zhu-bi-ji.html" rel="alternate"></link><updated>2014-11-09T23:00:00+08:00</updated><author><name>zzdjk6 (Shenghan Chen)</name></author><id>tag:zzdjk6.github.io,2014-11-09:myblog/quan-jing-tan-mi-you-xi-she-ji-yi-zhu-bi-ji.html</id><summary type="html">&lt;h2&gt;lens #46：经济&lt;/h2&gt;
+&lt;p&gt;将经济引入游戏能够为其带来惊人的深度和属于它自己的生命。但就像一切有生命的物体一样，它很难被控制。使用这条 lens 来确保你的经济保持平衡：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;玩家如何赚取金钱？还有其他的方式吗？&lt;/li&gt;
+&lt;li&gt;玩家可以购买什么？为什么？&lt;/li&gt;
+&lt;li&gt;金钱是否得到的过于容易？还是过于困难？如何来改变这种状况？&lt;/li&gt;
+&lt;li&gt;赚取和消费是有意义的选择吗？&lt;/li&gt;
+&lt;li&gt;通用货币在我的游戏中是一个好主意吗？或者应该使用特殊货币吗？ &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h2&gt;lens #47：平衡&lt;/h2&gt;
+&lt;p&gt;游戏平衡包含了很多的类型，而每种类型都是重要的。尽管如此，仍然会漏掉某些细节和忘记全景图。使用这条 lens 来走出泥潭，并只询问自己唯一重要的问题：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;游戏感觉上正确吗？为什么正确或不正确？ &lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
